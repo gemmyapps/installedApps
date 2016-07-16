@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'installedApps_Example' do
-  pod 'installedApps', :path => '../'
+  pod 'installedApps', :path => 'https://github.com/gemmyapps/installedApps.git'
 
   target 'installedApps_Tests' do
     inherit! :search_paths
